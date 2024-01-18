@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurfauzan Hanif</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nurfauzan Hanif - Caesar Cipher</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/enkrip.html">ENKRIPSI</a></li>
+            <li><a href="/dekrip.html">DEKRIPSI</a></li>
+        </ul>
+    </nav>
+
+    <section id="encrypt" class="content">
+        <h2>Encryption</h2>
+        <label for="encryptInput">Enter Text:</label>
+        <textarea id="encryptInput" rows="4"></textarea>
+        <button onclick="encrypt()">Encrypt</button>
+        <label for="encryptedText">Encrypted Text:</label>
+        <textarea id="encryptedText" readonly></textarea>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
